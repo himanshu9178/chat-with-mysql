@@ -91,7 +91,7 @@ if "chat_history" not in st.session_state:
         AIMessage(content="Hello! I'm a SQL assistant. Ask me anything about your database."),
     ]
 
-load_dotenv()
+# load_dotenv()
 
 st.set_page_config(page_title="Chat with MySQL", page_icon=":speech_balloon:")
 api_key = st.text_input("Enter your API key")
